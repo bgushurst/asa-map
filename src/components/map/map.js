@@ -18,7 +18,7 @@ export class Map extends Component {
 
     this.layers = {};
 
-    L.tileLayer(`${endpoint}/images/{z}_{x}_{y}.png`, {
+    L.tileLayer(`images/{z}_{x}_{y}.png`, {
       minZoom: 0,
       maxZoom: 4,
       tileSize: 256,
