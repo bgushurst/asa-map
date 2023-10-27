@@ -13,19 +13,18 @@ class ViewController {
       window.location.hostname === 'localhost' ||
       window.location.hostname === '127.0.0.1'
     ) {
-      this.apiService = new ApiService('http://localhost:8080');
+      this.endpoint = 'http://localhost:8080';
     } else {
-      this.apiService = new ApiService(
-        'https://bgushurst.github.io/asa-map/dist'
-      );
+      this.endpoint = 'https://bgushurst.github.io/asa-map/dist';
     }
 
+    this.apiService = new ApiService(this.endpoint);
     this.initializeComponents();
     this.loadMapData();
   }
 
   initializeComponents() {
-    this.mapComponent = new Map('map-placeholder');
+    this.mapComponent = new Map('map-placeholder', this.endpoint);
   }
 
   async loadMapData() {

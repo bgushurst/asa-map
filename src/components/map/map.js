@@ -5,7 +5,7 @@ import { Component } from '../component';
 const template = '<div ref="mapContainer" class="map-container"></div>';
 
 export class Map extends Component {
-  constructor(mapPlaceholderId, props) {
+  constructor(mapPlaceholderId, endpoint, props) {
     super(mapPlaceholderId, props, template);
 
     this.map = L.map(this.refs.mapContainer, {
@@ -18,7 +18,7 @@ export class Map extends Component {
 
     this.layers = {};
 
-    L.tileLayer('/images/{z}_{x}_{y}.png', {
+    L.tileLayer(`${endpoint}/images/{z}_{x}_{y}.png`, {
       minZoom: 0,
       maxZoom: 4,
       tileSize: 256,
@@ -34,18 +34,9 @@ export class Map extends Component {
       [-256, 256],
     ]);
 
-    var mapImage =
-        'https://ark.wiki.gg/images/0/04/The_Island_Topographic_Map.jpg',
-      imageBounds = [
-        [0, 0],
-        [1024, 1024],
-      ];
-
     // this.map.on('click', function (e) {
     //   alert('Lat, Lon : ' + e.latlng.lat + ', ' + e.latlng.lng);
     // });
-
-    //L.imageOverlay(mapImage, imageBounds).addTo(this.map);
   }
 
   addNotes(notes) {
