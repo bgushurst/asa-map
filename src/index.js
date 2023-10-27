@@ -15,7 +15,9 @@ class ViewController {
     ) {
       this.apiService = new ApiService('http://localhost:8080');
     } else {
-      this.apiService = new ApiService('http://bgushurst.github.io/asa-map');
+      this.apiService = new ApiService(
+        'https://bgushurst.github.io/asa-map/dist'
+      );
     }
 
     this.initializeComponents();
