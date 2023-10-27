@@ -1,0 +1,346 @@
+{
+  "notes": [
+    {
+      "id": "4x-13",
+      "marker": {
+        "lat": -244.75,
+        "lng": 51.36
+      },
+      "latitude": 95.3,
+      "longitude": 20.1
+    },
+    {
+      "id": "note-quetzal",
+      "marker": {
+        "lat": -239.5,
+        "lng": 48.62
+      },
+      "latitude": 93.6,
+      "longitude": 18.8
+    },
+    {
+      "id": "rockwell-2",
+      "marker": {
+        "lat": -227.06,
+        "lng": 52.49
+      },
+      "latitude": 88.8,
+      "longitude": 20.6
+    },
+    {
+      "id": "note-raptor",
+      "marker": {
+        "lat": -237.25,
+        "lng": 52.99
+      },
+      "latitude": 92.8,
+      "longitude": 20.7
+    },
+    {
+      "id": "rockwell-20",
+      "marker": {
+        "lat": -237,
+        "lng": 58.36
+      },
+      "latitude": 92.5,
+      "longitude": 22.8
+    },
+    {
+      "id": "rockwell-19",
+      "marker": {
+        "lat": -229,
+        "lng": 61.74
+      },
+      "latitude": "89.4",
+      "longitude": "24"
+    },
+    {
+      "id": "nerva-11",
+      "marker": {
+        "lat": -225.43,
+        "lng": 59.61
+      },
+      "latitude": 88.1,
+      "longitude": 23.3
+    },
+    {
+      "id": "note-leedsichtys",
+      "marker": {
+        "lat": -227,
+        "lng": 48.74
+      },
+      "latitude": 88.7,
+      "longitude": 19
+    },
+    {
+      "id": "note-liopluerodon",
+      "marker": {
+        "lat": -211.81,
+        "lng": 51.24
+      },
+      "latitude": 82.8,
+      "longitude": 19.9
+    },
+    {
+      "id": "note-sabertooth",
+      "marker": {
+        "lat": -208.87,
+        "lng": 56.24
+      },
+      "latitude": 81.6,
+      "longitude": 22.1
+    },
+    {
+      "id": "note-kentrosaurus",
+      "marker": {
+        "lat": -212.12,
+        "lng": 48.93
+      },
+      "latitude": 83,
+      "longitude": 19.1
+    },
+    {
+      "id": "note-pachyrhinosaurus",
+      "marker": {
+        "lat": -210.43,
+        "lng": 40.43
+      },
+      "latitude": 82.2,
+      "longitude": 15.8
+    },
+    {
+      "id": "note-megatherium",
+      "marker": {
+        "lat": -202.18,
+        "lng": 42.55
+      },
+      "latitude": 79,
+      "longitude": 16.7
+    },
+    {
+      "id": "note-yutyrannus",
+      "marker": {
+        "lat": -199.06,
+        "lng": 49.05
+      },
+      "latitude": 77.9,
+      "longitude": 19.1
+    },
+    {
+      "id": "helena-7",
+      "marker": {
+        "lat": -213.56,
+        "lng": 61.42
+      },
+      "latitude": 83.6,
+      "longitude": 24
+    },
+    {
+      "id": "note-wooly-rhino",
+      "marker": {
+        "lat": -214.81,
+        "lng": 74.67
+      },
+      "latitude": 84.1,
+      "longitude": 29.3
+    },
+    {
+      "id": "rockwell-21",
+      "marker": {
+        "lat": -208.81,
+        "lng": 73.23
+      },
+      "latitude": 81.6,
+      "longitude": 28.6
+    },
+    {
+      "id": "note-sarco",
+      "marker": {
+        "lat": -211,
+        "lng": 106.66
+      },
+      "latitude": 82.5,
+      "longitude": 41.8
+    },
+    {
+      "id": "rockwell-28",
+      "marker": {
+        "lat": -212.56,
+        "lng": 119.8
+      },
+      "latitude": 83,
+      "longitude": 46.8
+    },
+    {
+      "id": "rockwell-12",
+      "marker": {
+        "lat": -225.37,
+        "lng": 131.79
+      },
+      "latitude": 88,
+      "longitude": 51.5
+    },
+    {
+      "id": "note-ammonite",
+      "marker": {
+        "lat": -238.62,
+        "lng": 131.42
+      },
+      "latitude": 93.3,
+      "longitude": 51.3
+    },
+    {
+      "id": "note-sabertooth-salmon",
+      "marker": {
+        "lat": -239.81,
+        "lng": 134.67
+      },
+      "latitude": 93.8,
+      "longitude": 52.7
+    },
+    {
+      "id": "note-daedon",
+      "marker": {
+        "lat": -241.625,
+        "lng": 136.23
+      },
+      "latitude": 94.4,
+      "longitude": 53.5
+    },
+    {
+      "id": "note-pegomastix",
+      "marker": {
+        "lat": -223.81,
+        "lng": 166.41
+      },
+      "latitude": 87.6,
+      "longitude": 65.1
+    },
+    {
+      "id": "note-pulmonoscorpius",
+      "marker": {
+        "lat": -218.81,
+        "lng": 163.73
+      },
+      "latitude": 85.8,
+      "longitude": 63.9
+    },
+    {
+      "id": "rockwell-24",
+      "marker": {
+        "lat": -207.06,
+        "lng": 182.11
+      },
+      "latitude": 80.9,
+      "longitude": 71.1
+    },
+    {
+      "id": "helena-18",
+      "marker": {
+        "lat": -207.62,
+        "lng": 189.67
+      },
+      "latitude": 81.1,
+      "longitude": 74.1
+    },
+    {
+      "id": "rockwell-10",
+      "marker": {
+        "lat": -204.5,
+        "lng": 192.35
+      },
+      "latitude": 79.9,
+      "longitude": 75.1
+    },
+    {
+      "id": "note-ovis",
+      "marker": {
+        "lat": -197.43,
+        "lng": 199.73
+      },
+      "latitude": 77.2,
+      "longitude": 78.1
+    },
+    {
+      "id": "rockwell-23",
+      "marker": {
+        "lat": -204.06,
+        "lng": 199.73
+      },
+      "latitude": 79.7,
+      "longitude": 78
+    },
+    {
+      "id": "helena-17",
+      "marker": {
+        "lat": -207.68,
+        "lng": 209.29
+      },
+      "latitude": 81.3,
+      "longitude": 81.9
+    },
+    {
+      "id": "note-achatina",
+      "marker": {
+        "lat": -205,
+        "lng": 211.92
+      },
+      "latitude": 80.1,
+      "longitude": 82.9
+    },
+    {
+      "id": "rockwell-26",
+      "marker": {
+        "lat": -204.68,
+        "lng": 203.98
+      },
+      "latitude": 80.1,
+      "longitude": 79.8
+    },
+    {
+      "id": "note-spino",
+      "marker": {
+        "lat": -204.56,
+        "lng": 216.79
+      },
+      "latitude": 80,
+      "longitude": 84.8
+    },
+    {
+      "id": "rockwell-10",
+      "marker": {
+        "lat": -205,
+        "lng": 117.91
+      },
+      "latitude": 80.3,
+      "longitude": 46.1
+    },
+    {
+      "id": "helena-5",
+      "marker": {
+        "lat": -221.75,
+        "lng": 111.55
+      },
+      "latitude": 86.8,
+      "longitude": 43.8
+    },
+    {
+      "id": "rockwell-11",
+      "marker": {
+        "lat": -217.18,
+        "lng": 178.29
+      },
+      "latitude": 85,
+      "longitude": 70
+    },
+    {
+      "id": "helena-6",
+      "marker": {
+        "lat": -209.37,
+        "lng": 206.49
+      },
+      "latitude": 81.8,
+      "longitude": 80.8
+    }
+  ]
+}
