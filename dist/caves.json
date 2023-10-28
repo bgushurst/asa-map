@@ -1,0 +1,103 @@
+{
+  "caves": [
+    {
+      "name": "Ice Cave",
+      "marker": {
+        "lat": -66.12,
+        "lng": 74.37
+      },
+      "latitude": 26,
+      "longitude": 29
+    },
+    {
+      "name": "Central Cave",
+      "marker": {
+        "lat": -102.55,
+        "lng": 119.06
+      },
+      "latitude": 40.2,
+      "longitude": 46.7
+    },
+    {
+      "name": "Tek Cave",
+      "marker": {
+        "lat": -107.48,
+        "lng": 95.56
+      },
+      "latitude": 42.1,
+      "longitude": 37.3
+    },
+    {
+      "name": "Carno Cave",
+      "marker": {
+        "lat": -23.68,
+        "lng": 233.18
+      },
+      "latitude": 9,
+      "longitude": 91.3
+    },
+    {
+      "name": "Skylord Cave",
+      "marker": {
+        "lat": -36.23,
+        "lng": 35.12
+      },
+      "latitude": 14.3,
+      "longitude": 13.9
+    },
+    {
+      "name": "Pack Cave",
+      "marker": {
+        "lat": -182.42,
+        "lng": 146.56
+      },
+      "latitude": 71.3,
+      "longitude": 57.2
+    },
+    {
+      "name": "Hunter Cave",
+      "marker": {
+        "lat": -218.23,
+        "lng": 138.5
+      },
+      "latitude": 85.3,
+      "longitude": 54.2
+    },
+    {
+      "name": "Swamp Cave",
+      "marker": {
+        "lat": -165.55,
+        "lng": 90.43
+      },
+      "latitude": 64.8,
+      "longitude": 35.2
+    },
+    {
+      "name": "Lava Cave",
+      "marker": {
+        "lat": -189.3,
+        "lng": 235.56
+      },
+      "latitude": 74,
+      "longitude": 92.1
+    },
+    {
+      "name": "Caverns of Lost Faith",
+      "marker": {
+        "lat": -139.23,
+        "lng": 10.81
+      },
+      "latitude": 54.6,
+      "longitude": 4
+    },
+    {
+      "name": "Caverns of Lost Hope",
+      "marker": {
+        "lat": -115.81,
+        "lng": 247.56
+      },
+      "latitude": 45.6,
+      "longitude": 96.6
+    }
+  ]
+}

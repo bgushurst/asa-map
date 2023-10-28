@@ -8,15 +8,15 @@ export class ApiService {
   }
 
   async httpGet(endpoint = '') {
-    this.cancelToken.cancel('Cancelled Ongoing Request');
-    this.cancelToken = CancelToken.source();
-    const response = await axios.get(`${this.url}/${endpoint}`, {
-      cancelToken: this.cancelToken.token,
-    });
+    const response = await axios.get(`${this.url}/${endpoint}`);
     return response.data;
   }
 
   getNotes() {
     return this.httpGet('notes.json');
+  }
+
+  getCaves() {
+    return this.httpGet('caves.json');
   }
 }

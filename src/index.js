@@ -21,6 +21,7 @@ class ViewController {
     this.apiService = new ApiService(this.endpoint);
     this.initializeComponents();
     this.loadMapData();
+    this.loadCaveData();
   }
 
   initializeComponents() {
@@ -30,8 +31,13 @@ class ViewController {
   async loadMapData() {
     // Download note data
     const notesJson = await this.apiService.getNotes();
-    console.log(notesJson);
     this.mapComponent.addNotes(notesJson.notes);
+  }
+
+  async loadCaveData() {
+    // Download cave data
+    const cavesJson = await this.apiService.getCaves();
+    this.mapComponent.addCaves(cavesJson.caves);
   }
 }
 

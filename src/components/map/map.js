@@ -8,6 +8,8 @@ export class Map extends Component {
   constructor(mapPlaceholderId, endpoint, props) {
     super(mapPlaceholderId, props, template);
 
+    this.endpoint = endpoint;
+
     this.map = L.map(this.refs.mapContainer, {
       crs: L.CRS.Simple,
       center: [0, 0],
@@ -34,9 +36,9 @@ export class Map extends Component {
       [-256, 256],
     ]);
 
-    // this.map.on('click', function (e) {
-    //   alert('Lat, Lon : ' + e.latlng.lat + ', ' + e.latlng.lng);
-    // });
+    this.map.on('click', function (e) {
+      alert('Lat, Lon : ' + e.latlng.lat + ', ' + e.latlng.lng);
+    });
   }
 
   addNotes(notes) {
@@ -47,6 +49,24 @@ export class Map extends Component {
       );
       marker.bindPopup(
         `<b>Latitude:</b> ${note.latitude}<br /><b>Longitude:</b> ${note.longitude}<br />${note.id}`
+      );
+    });
+  }
+
+  addCaves(caves) {
+    var caveIcon = L.icon({
+      iconUrl: `${this.endpoint}/cave.png`,
+      iconSize: [24, 24],
+      iconAnchor: [12, 12],
+      popupAnchor: [0, -6],
+    });
+
+    caves.forEach((cave) => {
+      const marker = L.marker([cave.marker.lat, cave.marker.lng], {
+        icon: caveIcon,
+      }).addTo(this.map);
+      marker.bindPopup(
+        `${cave.name}<br /><b>Latitude:</b> ${cave.latitude}<br /><b>Longitude:</b> ${cave.longitude}`
       );
     });
   }
